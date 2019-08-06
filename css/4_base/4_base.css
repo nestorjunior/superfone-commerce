@@ -55,7 +55,7 @@ table {
                          "article picture"
 						 "footer picture";
 	width: 80%;
-	margin: 0 auto;
+	margin: 25px auto;
 }
 
 #header {
@@ -66,4 +66,17 @@ table {
 
 nav {
 	flex-grow: 1;
+}
+
+article {
+	grid-area: article;
+}
+
+picture {
+	grid-area: picture;
+	justify-self: end;
+}
+
+footer {
+	grid-area: footer;
 }

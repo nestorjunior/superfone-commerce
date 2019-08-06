@@ -43,3 +43,78 @@
     vertical-align: middle;
     font-weight: bold;
 }
+
+#article > span {
+    width: 410px;
+    height: 399px;
+    opacity: 0.43;
+    font-size: 300px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 45px;
+    text-align: center;
+    color: #bfb5b5;
+    position: absolute;
+    z-index: -1;
+    margin-top: 85px;
+}
+
+#article > h1 {
+    width: 400px;
+    height: 150px;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 1.05;
+    letter-spacing: 0.88px;
+    text-align: center;
+    color: #488cf5;
+    margin-top: 180px;
+}
+
+#article > h2 {
+    width: 409px;
+    height: 150px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #707070;
+}
+
+.send-message {
+    width: 400px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    -web-kit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.send-message > i > img {
+    padding-left: 15px;
+    position: relative;
+    top: 4px;
+}
+
+.send-message input {
+    padding: 17px 10px;
+    border: 0;
+    width: 250px;
+}
+.send-message button {
+    width: 70px;
+    height: 35px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #488cf5;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    -web-kit-transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.send-message button:hover {
+    background-color: #f4891f;
+}
+
+
